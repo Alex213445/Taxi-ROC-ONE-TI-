@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Taxi Roc Onești - Siguranța care te conduce.">
+    <title>Taxi Roc Onești</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+        header {
+            background-color: #ffc107;
+            color: #000;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        header p {
+            font-size: 1.2em;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+        .phone-numbers {
+            font-size: 1.5em;
+            text-align: center;
+            margin: 20px 0;
+        }
+        .section {
+            margin: 40px 0;
+        }
+        .section h2 {
+            color: #000;
+            margin-bottom: 10px;
+        }
+        .facebook-plugin {
+            text-align: center;
+            margin-top: 40px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Taxi Roc Onești</h1>
+        <p>Vocea care te îndrumă, siguranța care te conduce!</p>
+    </header>
+
+    <div class="container">
+        <div class="phone-numbers">
+            <p><strong>📞 0234 311 611</strong></p>
+            <p><strong>📞 0234 311 511</strong></p>
+        </div>
+
+        <div class="section">
+            <h2>Despre noi</h2>
+            <p>✅ Când ne sună clienții, îi întâmpinăm cu vocea calmă și suavă a dispecerelor noastre, mereu pregătite să ofere cea mai bună experiență de rezervare. Pentru noi, confortul tău începe de la primul cuvânt.</p>
+        </div>
+
+        <div class="section">
+            <h2>Șoferii noștri</h2>
+            <p>✅ Șoferii și șoferițele noastre preiau ștafeta – oameni responsabili, profesioniști și mereu atenți la drum. Fiecare cursă este o călătorie în siguranță, pe care o facem cu grijă pentru tine și timpul tău.</p>
+        </div>
+
+        <div class="section">
+            <h2>Mașinile noastre</h2>
+            <p>✅ Fiecare mașină din flota noastră este verificată periodic, păstrată curată și dotată pentru a-ți oferi un confort maxim. Cu noi, călătoria este întotdeauna plăcută.</p>
+        </div>
+
+        <div class="facebook-plugin">
+            <h2>Urmărește-ne pe Facebook</h2>
+            <!-- Facebook Page Plugin -->
+            <div id="fb-root"></div>
+            <script async defer crossorigin="anonymous" 
+                    src="https://connect.facebook.net/ro_RO/sdk.js#xfbml=1&version=v16.0" 
+                    nonce="FbPlugin"></script>
+            <div class="fb-page" 
+                data-href="https://www.facebook.com/share/15Je5tnwU7/" 
+                data-tabs="timeline" 
+                data-width="500" 
+                data-height="700" 
+                data-small-header="false" 
+                data-adapt-container-width="true" 
+                data-hide-cover="false" 
+                data-show-facepile="true">
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2024 Taxi Roc Onești. Toate drepturile rezervate.</p>
+    </footer>
+</body>
+</html>
+
